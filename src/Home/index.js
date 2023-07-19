@@ -32,7 +32,7 @@ const Home = () =>{
     <div className="container">
     {Home.map(product=>(
         <div className="">
-            <img alt="image" src = {product.images[0]} className="image"/>
+            <img alt="imagessss" src = {product.images[0]} className="image"/>
             <h3>{product.title}</h3>
             <p>{product.price}</p>
             <p>{product.discountPercentage}</p>
