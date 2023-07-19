@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./style.css";
 
 
@@ -46,7 +47,8 @@ const Login = ()=>{
                 onChange={(e)=>setPassword(e.target.value)}/>
                 <br/>
                 <br/>
-                <button type="submit">Login</button>
+                <Link to ="/Home"> <button type="submit">Login</button></Link>
+               
             </form>
         </div>
     )

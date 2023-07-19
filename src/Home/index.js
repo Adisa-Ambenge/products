@@ -37,7 +37,7 @@ const Home = () =>{
             <p>{product.price}</p>
             <p>{product.discountPercentage}</p>
             <Link to={`/ProductDetails/${product.id}`} className="button">
-          <button type="submit" className="viewMore">Add to cart</button>
+          <button type="submit" className="viewMore">View More</button>
           
         </Link>
             </div>
