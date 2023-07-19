@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from "react";
 import "./style.css";
-import{ createBrowserRouter,RouterProvider,Route,Link,} from "react-router-dom";
+import{ Link,} from "react-router-dom";
 
 
 
